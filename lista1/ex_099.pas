@@ -1,6 +1,4 @@
-(* Responder questão 'Exercicio 099' 
-
-Enunciado: 
+(* Enunciado: 
 
 Faça um programa Pascal que leia três números inteiros representando a idade de uma pessoa expressa em anos, 
 meses e dias, respectivamente, e imprima-a expressa apenas em dias. Para este exercício, considere que todos 
