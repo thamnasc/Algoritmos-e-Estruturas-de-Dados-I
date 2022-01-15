@@ -1,6 +1,4 @@
-(* Responder questão 'Exercicio 106' 
-
-Enunciado: 
+(* Enunciado: 
 
 Faça um programa Pascal que leia um número inteiro do teclado e imprima o cubo do número caso ele 
 seja positivo ou igual a zero e o quadrado do número caso ele seja negativo. 
