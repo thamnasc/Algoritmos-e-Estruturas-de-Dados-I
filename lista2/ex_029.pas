@@ -1,3 +1,28 @@
+(* Enunciado: 
+
+Faça um programa Pascal que leia do teclado um conjunto de 4 valores i, a, b, c, sendo que i é um valor inteiro e positivo e a, b, c, 
+são quaisquer valores reais. Imprima na tela os valores de a, b, c da seguinte forma: 
+
+os três valores a, b, c em ordem crescente, se i = 1 
+
+os três valores a, b, c em ordem decrescente, se i = 2, 
+
+os três valores a, b, c de forma que o maior dentre a, b, c fique entre os outros dois valores, com a ordem deles mantida, se i = 3. 
+
+Exemplos: 
+
+Exemplo 1: 
+1 34 12 21 
+
+Saida Esperada 1: 
+12 21 34 
+
+Exemplo 2: 
+3 68 5 45 
+
+Saida Esperada 2: 
+5 68 45 *)
+
 program ex_029;
 var i: integer;
 a, b, c, st, nd, rd: real;
