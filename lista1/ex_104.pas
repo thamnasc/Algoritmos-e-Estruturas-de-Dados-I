@@ -1,6 +1,4 @@
-(* Responder questão 'Exercicio 104' 
-
-Enunciado: 
+(* Enunciado: 
 
 Faça um programa Pascal que leia do teclado dois números inteiros e imprima qual é o menor valor entre eles. 
 
@@ -25,7 +23,7 @@ var A, B: longint;
 
 begin
         read(A, B);
-        if A <  B then
+        if A < B then
                 writeln(A)
         else
                 writeln(B);
