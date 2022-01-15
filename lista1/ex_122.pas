@@ -1,7 +1,9 @@
 (* Enunciado: 
 
-Uma P.A. (Progressão Aritmética) é determinada pela sua razão r e pelo primeiro termo (a1). Faça um programa Pascal que seja 
-capaz de imprimir o enésimo (n) termo (an) de uma P.A., dado a razão (r) e o primeiro termo (a1). Seu programa deve ler três valores inteiro 
+Uma P.A. (Progressão Aritmética) é determinada pela sua razão r e pelo primeiro termo (a1). 
+Faça um programa Pascal que seja 
+capaz de imprimir o enésimo (n) termo (an) de uma P.A., dado a razão (r) e o primeiro termo (a1). 
+Seu programa deve ler três valores inteiro 
 do teclado (n, r, a1) do teclado e imprimir an, segundo a fórmula: 
 
 An = A1 + (n - 1) x r
