@@ -1,6 +1,8 @@
 (* Enunciado: 
 
-Dado um número inteiro que representa uma quantidade de segundos, faça um programa que imprima o seu valor equivalente em horas, minutos e segundos, nesta ordem. Se a quantidade de segundos for insuficiente para dar um valor em horas, o valor em horas deve ser 0 (zero). A mesma observação vale em relação aos minutos e segundos. 
+Dado um número inteiro que representa uma quantidade de segundos, faça um programa que imprima o seu valor equivalente em horas, minutos e segundos, nesta ordem. 
+Se a quantidade de segundos for insuficiente para dar um valor em horas, o valor em horas deve ser 0 (zero). 
+A mesma observação vale em relação aos minutos e segundos. 
 
 Exemplos: 
 Entrada 1: 
