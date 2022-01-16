@@ -1,3 +1,32 @@
+(*Enunciado: 
+
+Uma sequência de n números inteiros não nulos é dita piramidal k-alternante se é constituída por k segmentos: 
+
+o primeiro com um elemento, o segundo com dois elementos e assim por diante até o k-ésimo, com k elementos. 
+
+Além disso, os elementos de um mesmo segmento devem ser todos pares ou todos ímpares e para cada segmento, 
+se seus elementos forem todos pares (ímpares), os elementos do segmento seguinte devem ser todos ímpares (pares). 
+
+Por exemplo, a sequência 12, 3, 7, 2, 10, 4, 5, 13, 5, 11, com n = 10 elementos é piramidal 4-alternante. 
+
+A sequência 7, 10, 2 com n = 3 elementos é piramidal 2-alternante. 
+
+A sequência 1, 12, 4, 3, 13, 5, 12, 6 com n=8 elementos não é piramidal alternante pois o último segmento não tem tamanho 4. 
+
+Faça um programa Pascal que, dado um inteiro n >= 1 e uma sequência de n números inteiros, verifique se ela é piramidal k-alternante. 
+Se for, o programa deve imprimir o valor de k, senão, deve imprimir 0. 
+
+Exemplos: 
+Entrada 1: 
+10 12 3 7 2 10 4 5 13 5 11 
+Saída Esperada 1: 
+4 
+
+Entrada 2: 
+8 1 12 4 3 13 5 12 6 
+Saída Esperada 2: 
+0 *)
+
 program ex_005;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of longint;
