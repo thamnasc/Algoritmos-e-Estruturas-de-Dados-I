@@ -1,3 +1,60 @@
+(* Enunciado: 
+
+Faça um programa que leia uma sequência de códigos de operação e valor, onde o código de operação é um inteiro com os seguintes valores: 
+
+0 (zero): fim 
+1 (um): inserção 
+2 (dois): remoção 
+
+O valor lido é um número real que deve ser inserido em um vetor (caso a operação seja 1), ou removido do vetor (caso a operação seja 2). 
+As inserções no vetor devem ser realizadas de forma que o vetor esteja sempre ordenado. O programa deve imprimir todos os vetores resultantes 
+de cada operação e ao final deve imprimir o vetor resultante. Imprima os valores reais sempre com uma casa decimal. Caso o vetor esteja vazio, 
+imprima a mensagem "vazio". 
+
+Detalhamento: 
+
+A quantidade máxima de valores que pode ser inserida é 200; 
+
+Se a quantidade máxima for ultrapassada o programa deve dar uma mensagem de erro (imprima a mensagem "erro"); 
+
+Se for requisitada a remoção de um número não existente o programa deve dar uma mensagem de erro (imprima "erro"); 
+
+Se o código de operação for inválido o programa deve continuar lendo um novo código até que ele seja 0 (zero), 1 (um) ou 2 (dois). 
+
+Use ao máximo funções e procedimentos apropriados. 
+
+Exemplo: 
+
+Entrada: 
+1 
+ 
+45.3 
+1 
+ 
+34.3 
+4 
+ 
+9 
+ 
+1 
+ 
+40.8 
+2 
+ 
+11.9 
+2 
+ 
+34.3 
+0 
+
+Saída: 
+45.3 
+34.3 45.3 
+34.3 40.8 45.3 
+erro 
+40.8 45.3 
+40.8 45.3 *)
+
 program v_006;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of real;
