@@ -1,3 +1,30 @@
+(* Enunciado: 
+
+Faça uma função que receba como parâmetro um número inteiro e teste se ele é um número binário. Se ele for binário, 
+imprima sim senão imprima nao. Teste sua função usando este código: 
+
+program testa_binario;
+var n: longint;
+
+// coloque aqui o codigo da sua funcao que testa se eh binario
+
+begin 
+	read(n);
+	if (eh_binario(n)) then
+		writeln('sim')
+	else
+		writeln('nao');
+end.
+
+
+Exemplos de entradas 
+10001 
+1020 
+
+Saídas esperadas 
+sim 
+nao *)
+
 program testa_binario;
 var n: longint;
 
