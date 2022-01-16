@@ -1,3 +1,15 @@
+(* Enunciado: 
+
+A soma infinita indicada abaixo é composta de termos em que o numerador de cada termo é um número ímpar ou a dezena de um número ímpar, 
+conforme a posição do termo na série, e o denominador é um número par ou a dezena de um número par, conforme a posição do termo na série: 
+
+S = - (1/20) + (30/4) - (5/60) + (70/8) - (9/100) + (110/12) - ...
+
+Observe que o sinal de soma e subtração se alterna conforme a posição do termo na série. 
+
+Faça um programa em Pascal para calcular o valor de S, considerando apenas os 10 primeiros termos da série. Ao final, imprimir o resultado 
+encontrado para S, com duas casas decimais.  *)
+
 program series_007;
 var n: integer;
 
