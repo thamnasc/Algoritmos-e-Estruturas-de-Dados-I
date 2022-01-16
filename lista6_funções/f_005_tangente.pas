@@ -5,6 +5,7 @@ Calcule até o sexto termo das séries. Faça uma terceira função que calcule 
 Esta função deve retornar true caso a tangente exista e false em caso contrário. Ao mesmo tempo, a função tangente deve retornar o 
 valor da tangente do ângulo caso ele exista, senão deve imprimir uma mensagem adequada. Teste suas funções usando o código abaixo: 
 
+
 program calcula_tangente; 
 
 var angulo: real; 
