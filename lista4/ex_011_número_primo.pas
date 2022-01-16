@@ -1,3 +1,23 @@
+(* Enunciado: 
+
+Faça um programa Pascal que leia do teclado um número inteiro maior que 1 e verifique se este número é primo ou não. 
+
+Exemplos: 
+Entrada 1: 
+13 
+Saída Esperada 1: 
+SIM 
+
+Entrada 2: 
+7 
+Saída Esperada 2: 
+SIM 
+
+Entrada 3: 
+26 
+Saída Esperada 3: 
+NAO *)
+
 program ex_011;
 var num: integer;
 
