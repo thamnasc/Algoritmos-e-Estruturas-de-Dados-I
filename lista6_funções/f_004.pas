@@ -1,3 +1,22 @@
+(* Enunciado: 
+
+Faça uma função que receba como parâmetro um número inteiro e retorne true se ele for primo e false em caso contrário. 
+Teste sua função usando o código abaixo, que imprime todos os primos entre 1 e 10000. 
+
+
+program testa_se_primo;
+var i: longint;
+
+// coloque aqui o codigo da sua funcao que testa se eh primo
+
+begin
+    for i: =1 to 10000 do
+        if eh_primo (1) then
+	    writeln(1);
+end.
+
+ *)
+ 
 program f_004;
 uses math;
 const MIN = 2; MAX = 1000;
