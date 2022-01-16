@@ -1,3 +1,23 @@
+(* Enunciado: 
+
+No tabuleiro de xadrez, a casa na linha 1, coluna 1 (canto superior esquerdo) é sempre branca e as cores das casas se alternam entre branca e preta, 
+de acordo com o padrão conhecido como... xadrez! Dessa forma, como o tabuleiro tradicional tem oito linhas e oito colunas, a casa na linha 8, coluna 8 
+(canto inferior direito) será também branca. Neste problema, entretanto, queremos saber a cor da casa no canto inferior direito de um tabuleiro com 
+dimensões quaisquer: L linhas e C colunas. 
+Faça um programa Pascal que leia do teclado dois números naturais positivos representando respectivamente o número de linhas L e colunas C do tabuleiro 
+e verifique se a cor da casa no canto inferior direito desse tabuleiro será branca ou preta. 
+
+Exemplos: 
+Entrada 1: 
+6 9 
+Saída Esperada 1: 
+PRETA 
+
+Entrada 2: 
+8 8 
+Saída Esperada 2: 
+BRANCA *)
+
 program ex_007;
 var L, C: integer;
 cor: boolean;
