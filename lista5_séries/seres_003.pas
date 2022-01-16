@@ -1,3 +1,22 @@
+(* Enunciado: 
+
+Faça um programa em Pascal que leia um inteiro positivo n, e escreva a soma dos n primeiros termos da série abaixo: 
+
+S = (1000/1) - (997/2) + (994/3) - (991/4) + ...
+
+Imprima a saída com duas casas decimais. 
+
+Exemplo: 
+Entrada 1: 
+2 
+Saída Esperada 1: 
+501.50 
+
+Entrada 2: 
+4 
+Saída Esperada 2: 
+585.08 *)
+
 program series_003;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of longint;
