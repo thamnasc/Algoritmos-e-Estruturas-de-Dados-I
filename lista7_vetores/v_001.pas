@@ -1,3 +1,26 @@
+(* Enunciado: 
+
+Faça um programa que leia um número inteiro n (0 <= n <= 200) e em seguida leia uma sequência de n valores reais e os insira em um vetor de reais. 
+O programa deve imprimir na saída o valor absoluto da divisão da soma dos valores positivos que estão em posições pares pela soma dos valores 
+negativos que estão nas posições ímpares. Cuidado com divisões por zero. 
+
+Exemplo de entrada 1 
+4 
+-2.0 -7.0 7.0 2.0 
+Saída esperada 1: 
+-1.00 
+
+Exemplo de entrada 2 
+3 
+1 2 3 
+Saída esperada 2: 
+divisao por zero 
+
+Exemplo de entrada 3 
+0 
+Saída esperada 3: 
+vetor vazio *)
+
 program v_001;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of real;
