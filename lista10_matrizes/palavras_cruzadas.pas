@@ -1,3 +1,35 @@
+(* Enunciado: 
+
+Um jogo de palavras cruzadas pode ser representado por uma matriz A(n × m) onde cada posição da matriz 
+corresponde a um quadrado do jogo, sendo que 0 indica um quadrado em branco e -1 indica um quadrado preto. 
+Colocar as numerações de início de palavras horizontais e/ou verticais nos quadrados correspondentes (substituindo os zeros), 
+considerando que uma palavra deve ter pelo menos duas letras. 
+
+PS: A imagem abaixo representa visualmente a matriz de entrada do exemplo. As palavras sempre são adicionadas da esquerda para a 
+direita (Horizontal) ou de cima para baixo (Vertical). 
+
+1  p  2  p  p  3  p  4
+5  6  0  0  p  7  0  0
+8  0  p  p  9  0  p  0
+0 10  0 11  0  p 12  0
+13 0  p 14  0  0  p  p
+
+Exemplo de entrada: 
+5 8 
+0 -1 0 -1 -1 0 -1 0 
+0 0 0 0 -1 0 0 0 
+0 0 -1 -1 0 0 -1 0 
+-1 0 0 0 0 -1 0 0 
+0 0 -1 0 0 0 -1 -1 
+
+Saída esperada para a entrada anterior: 
+1 -1 2 -1 -1 3 -1 4 
+5 6 0 0 -1 7 0 0 
+8 0 -1 -1 9 0 -1 0 
+-1 10 0 11 0 -1 12 0 
+13 0 -1 14 0 0 -1 -1 
+*)
+
 program palavras_cruzadas;
 const MIN = 1; MAX = 100;
 type matriz = array [MIN..MAX, MIN..MAX] of longint;
