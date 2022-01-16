@@ -1,3 +1,21 @@
+(* Enunciado: 
+
+Faça um programa Pascal que leia dois números inteiros, um n e outro m. Seu programa deve imprimir a soma de todos os números pares entre n e m; 
+sendo que, n e m não devem ser incluídos na soma. 
+
+Exemplos: 
+Entrada 1: 
+2 
+8 
+Saída Esperada 1: 
+10 
+
+Entrada 2: 
+0 
+6 
+Saída Esperada 2: 
+6 *)
+
 program ex_056;
 var n, m, impar_m: integer;
 soma: longint;
