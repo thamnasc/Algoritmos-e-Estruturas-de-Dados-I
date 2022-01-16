@@ -1,4 +1,29 @@
-program maximizar_soma;
+(* Enunciado: 
+
+Faça um programa em Free Pascal que leia diversas linhas nas quais as linhas ı́mpares contém o tamanho n (0 ≤ n ≤ 100) 
+da sequência de números inteiros que deve ser lida na linha subsequente. Quando uma linha ı́mpar contiver o valor zero 
+significa que a entrada de dados acabou e seu programa deverá encerrar com a impressão de todas as sequências originais 
+e também compactadas pela eliminação de 
+todos os elementos repetidos de cada sequência. 
+No exemplo abaixo, O significa a sequência original e C a sequência compactada. 
+
+Exemplo de entrada: 
+5 
+2 4 7 -1 2 
+3 
+1 1 1 
+7 
+3 4 5 3 7 5 1 
+0 
+Saı́da esperada: 
+O: 2 4 7 -1 2 
+C: 2 4 7 -1 
+O: 1 1 1 
+C: 1 
+O: 3 4 5 3 7 5 1 
+C: 3 4 5 7 1 *)
+
+program compactacao;
 const MIN = 1; MAX = 100;
 type vetor = array [MIN..MAX] of longint;
 var seq_o, seq_c: vetor;
