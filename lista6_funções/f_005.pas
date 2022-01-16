@@ -1,3 +1,34 @@
+(* Enunciado: 
+
+Faça duas funções para calcular o seno e o cosseno de um número real lido do teclado representando um ângulo em radianos.
+Calcule até o sexto termo das séries. Faça uma terceira função que calcule a tangente deste mesmo ângulo lido. 
+Esta função deve retornar true caso a tangente exista e false em caso contrário. Ao mesmo tempo, a função tangente deve retornar o 
+valor da tangente do ângulo caso ele exista, senão deve imprimir uma mensagem adequada. Teste suas funções usando o código abaixo: 
+
+program calcula_tangente; 
+
+var angulo: real; 
+
+// coloque aqui o codigo da sua funcao que calcula o seno 
+
+// coloque aqui o codigo da sua funcao que calcula o cosseno
+
+// coloque aqui o codigo da sua funcao que calcula a tangente 
+
+begin     
+
+read (angulo); 
+
+ 	  if existe_tangente(angulo, tg) then    
+
+   	writeln (tg:0:5) 
+
+  else    
+
+    writeln ('nao existe tangente de ',angulo:0:5); 
+
+end. *)
+
 program f_005;
 uses math;
 var rad, tg: real;
