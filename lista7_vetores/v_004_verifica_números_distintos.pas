@@ -1,3 +1,21 @@
+(* Enunciado: 
+
+Faça um programa que leia um número inteiro positivo n e em seguida leia uma sequência de n números inteiros quaisquer. 
+Seu programa deve imprimir os números distintos (na mesma ordem relativa entre eles) e em seguida o número de vezes que 
+cada um deles ocorre na mesma. Use ao máximo funções e procedimentos adequados. Dica: você pode usar vetores auxiliares 
+para ajudar a verificar e contar as ocorrências. 
+
+Exemplo de entrada 
+5 
+ 
+3 1 2 2 3 
+
+Saída esperada: 
+a sequencia tem 3 numeros distintos: 3 1 2 
+3 ocorre 2 vezes 
+1 ocorre 1 vez 
+2 ocorre 2 vezes *)
+
 program v_004;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of longint;
