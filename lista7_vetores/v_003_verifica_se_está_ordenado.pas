@@ -1,3 +1,32 @@
+(* Enunciado: 
+
+Faça um programa que leia um inteiro positivo n e em seguida leia n valores inteiros quaisquer e imprima "sim" 
+se o vetor estiver ordenado em ordem crescente e "nao" em caso contrário. Em qualquer caso, o programa também deve 
+imprimir o vetor, mas na ordem inversa com relação à leitura. Use funções e procedimentos apropriados. 
+
+Exemplo de entrada 1 
+5 
+ 
+-2 -7 7 2 1 
+Saída esperada 1 
+nao 
+ 
+1 2 7 -7 -2 
+
+Exemplo de entrada 2 
+7 
+ 
+1 3 4 8 8 10 15 
+Saída esperada 2 
+sim 
+ 
+15 10 8 8 4 3 1 
+
+Exemplo de entrada 3 
+0 
+Saída esperada 3 
+vetor vazio *)
+
 program v_003;
 const MIN = 1; MAX = 200;
 type vetor = array [MIN..MAX] of longint;
